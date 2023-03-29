@@ -1,0 +1,39 @@
+.index {
+    
+}
+
+.about {
+
+}
+
+.portfolio {
+
+}
+
+.navbar {
+    background-color: #333;
+    width: 220px;
+    height: 48px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F5F5F5D9;
+}
+
+.navbar a {
+    text-align: center;
+    float: left;
+    color: #F5F5F5D9;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #402154;
+    color: white;
+}
