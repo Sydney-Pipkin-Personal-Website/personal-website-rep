@@ -35,43 +35,63 @@ html {
 }
 
 .wrapper {
+    /*
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
     padding: 12rem 0 3rem 0;
+    */
     width: 100vw;
-    position: relative;
+    position: absolute;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+    /*
     background-position: center;
+    */
     background-repeat: repeat;
 }
 
 .main {
+    margin-top: 14%;
+    margin-bottom: 15%;
     background-position: center;
     background-repeat: repeat;
+    
     text-align: center;
     border-top: 5px solid #402154;
     border-bottom: 5px solid #402154;
     align-content: center;
-    align-items: center;
+     align-items: center; 
+    
     display: flex;
+    place-items: center;
     background-color: #333;
     background-size: 512px;
 
 }
 
 .innerone {
+    /*
     max-width: 100%;
     --padding-horizontal: 4rem;
     --padding-vertical: 4rem;
     --spacing: 0rem;
     --width: 90rem;
+    */
 }
 
 .containerone {
+    /* This class centers items inside of container div */
+    height: 500px;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containertwo {
     height: 500px;
     display: flex;
     width: 700px;
@@ -85,7 +105,7 @@ html {
     background-position: left top;
     background-size: 100% 100%;
     margin: 10px;
-    padding-left: 10rem;
+    padding-left: 35rem;
     padding-right: 1rem;
 }
 
@@ -97,8 +117,9 @@ html {
     margin: 10px;
     padding-left: 3rem;
     padding-right: 3rem;
+     /*
     border-left: 2px solid #b8b8b8d9;
-    height: 150px;
+    height: 150px; */
 }
 
 .aboutme {
@@ -109,7 +130,9 @@ html {
         margin: 10px;
         padding-left: 3rem;
         padding-right: 3rem;
+        /*
         height: 450px;
+        */
     }
 
 .selfie {
@@ -128,6 +151,15 @@ h1 {
         color: #F5F5F5D9;
         font-size: 45px;
         justify-content: right;
+        border-top: 3px solid #F5F5F5D9;
+        padding-top: 20px;
+}
+
+.h1border {
+    color: #F5F5F5D9;
+    font-size: 35px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #b8b8b8d9;
 }
 
 .text1 {
@@ -141,6 +173,11 @@ h1 {
 
 .text2 {
     color: #b8b8b8d9;
+}
+
+.text3 {
+    color: #b8b8b8d9;
+    font-size: 20px;
 }
 
 .social {
