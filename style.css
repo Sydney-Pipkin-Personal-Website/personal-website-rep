@@ -1,23 +1,11 @@
-.index {
-    
-}
-
-.about {
-
-}
-
-.portfolio {
-
-}
-
 .navbar {
     background-color: #333;
     width: 220px;
     height: 48px;
     overflow: hidden;
     border-style: solid;
-    border-width: 2px;
-    border-color: #F5F5F5D9;
+    border-width: 3px;
+    border-color: #402154;
 }
 
 .navbar a {
@@ -36,4 +24,129 @@
 .navbar a.active {
     background-color: #402154;
     color: white;
+}
+
+html {
+    background: url(./img/baw.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper {
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12rem 0 3rem 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.main {
+    background-position: center;
+    background-repeat: repeat;
+    text-align: center;
+    border-top: 5px solid #402154;
+    border-bottom: 5px solid #402154;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #333;
+    background-size: 512px;
+
+}
+
+.innerone {
+    max-width: 100%;
+    --padding-horizontal: 4rem;
+    --padding-vertical: 4rem;
+    --spacing: 0rem;
+    --width: 90rem;
+}
+
+.containerone {
+    height: 500px;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headshot {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    margin: 10px;
+    padding-left: 10rem;
+    padding-right: 1rem;
+}
+
+.titles {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    margin: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-left: 2px solid #b8b8b8d9;
+    height: 150px;
+}
+
+.aboutme {
+        display: block;
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 100% 100%;
+        margin: 10px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        height: 450px;
+    }
+
+.selfie {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: solid #402154 6px;
+}
+
+h1 {
+    color: #F5F5F5D9;
+    font-size: 35px;
+}
+
+.h1 {
+        color: #F5F5F5D9;
+        font-size: 45px;
+        justify-content: right;
+}
+
+.text1 {
+    text-transform: uppercase;
+    color: #c979ff;
+    letter-spacing: .1rem;
+    line-height: 1.25;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #b8b8b8d9;
+}
+
+.text2 {
+    color: #b8b8b8d9;
+}
+
+.social {
+    display: flex;
+}
+
+.socials {
+    padding-left: 4rem;
 }
